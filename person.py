@@ -4,27 +4,31 @@ from virus import Virus
 
 
 class Person(object):
-    # Define a person. 
+    '''
+    Person class; defines a person for the purposes of a herd immunity simulation
+    '''
     def __init__(self, _id, is_vaccinated, infection = None):
         # A person has an id, is_vaccinated and possibly an infection
         self._id = _id  # int
-        # TODO Define the other attributes of a person here
-        pass
+        self.is_alive = True
+        self.is_vaccinated = is_vaccinated
+        self.infection = infection
 
     def did_survive_infection(self):
-        # This method checks if a person survived an infection. 
-        # TODO Only called if infection attribute is not None.
-        # Check generate a random number between 0.0 - 1.0
-        # If the number is less than the mortality rate of the 
-        # person's infection they have passed away. 
-        # Otherwise they have survived infection and they are now vaccinated. 
-        # Set their properties to show this
-        # TODO: The method Should return a Boolean showing if they survived.
-        pass
+        '''For a person who is infected, generate a random number;
+        if it is less than the mortality_rate of the virus (expressed as
+        a decimal), the person dies; else they survive and are now immune'''
+        if self.infection is not None:
+            survival_roll = random.random()
+            if survival_roll < self.infection.mortality_rate:
+                self.is_alive = False
+                return False
+            else:
+                self.is_vaccinated = True
+                return True
 
 if __name__ == "__main__":
     # This section is incomplete finish it and use it to test your Person class
-    # TODO Define a vaccinated person and check their attributes
     vaccinated_person = Person(1, True)
     assert vaccinated_person._id == 1
     assert vaccinated_person.is_alive is True
@@ -34,6 +38,10 @@ if __name__ == "__main__":
     # Create an unvaccinated person and test their attributes
     unvaccinated_person = Person(2, False)
     # TODO Test unvaccinated_person's attributes here...
+    assert unvaccinated_person._id == 2
+    assert unvaccinated_person.is_vaccinated is False
+    assert unvaccinated_person.is_alive is True
+    assert unvaccinated_person.infection is None
 
     # Test an infected person. An infected person has an infection/virus
     # Create a Virus object to give a Person object an infection
