@@ -1,8 +1,6 @@
 class Logger(object):
     def __init__(self, file_name):
-        # TODO:  Finish this initialization method. The file_name passed should be the
-        # full file name of the file that the logs will be written to.
-        pass
+        self.file_name = file_name
 
     # The methods below are just suggestions. You can rearrange these or 
     # rewrite them to better suit your code style. 
@@ -28,7 +26,10 @@ class Logger(object):
         # the 'a' mode to append a new log to the end, since 'w' overwrites the file.
         # NOTE: Make sure to end every line with a '/n' character to ensure that each
         # event logged ends up on a separate line!
-        pass
+        with open(self.file_name, 'w') as out_file:
+            metadata = f'METADATA: Population size: {pop_size}\tVaccination Percentage: {vacc_percentage}\tVirus: {virus_name}\tMortality Rate: {mortality_rate} Reproduction Number: {basic_repro_num}'
+            out_file.write(metadata)
+        
 
     def log_interactions(self, step_number, number_of_interactions, number_of_new_infections):
         # TODO: Finish this method. Think about how the booleans passed (or not passed)
