@@ -22,9 +22,11 @@ class Person(object):
             survival_roll = random.random()
             if survival_roll < self.infection.mortality_rate:
                 self.is_alive = False
+                self.infection = None
                 return False
             else:
                 self.is_vaccinated = True
+                self.infection = None
                 return True
 
 if __name__ == "__main__":
