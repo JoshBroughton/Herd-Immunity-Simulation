@@ -1,0 +1,8 @@
+1. The inputs for this example simulation were: Population size: 10000	Vaccination Percentage: 0.25	Virus: Tuberculosis	Mortality Rate: 0.68 Reproduction Number: 0.55
+
+2. Of the 9990 intially uninfected members of the population (discounting the 10 initially infected), 7490 became infected at some point in the infection, or 74.97%
+
+3. There were 5093 deaths out of the initial population of 10000, or 50.93% of the population.
+
+4. The is_vaccinated trait provided immunity in 212292 unique interactions out of a total of 750000 interactions; however, following the base assignments requirements 
+this includes both vaccine immunity and immunity gained through exposure. 

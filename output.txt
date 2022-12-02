@@ -1,31 +1,11 @@
-METADATA: Population size: 100000	Vaccination Percentage: 0.9	Virus: Ebola	Mortality Rate: 0.7 Reproduction Number: 0.25
-Step Number: 1 Number of Interactions: 1000 Number of New Infections: 23
-Step Number: 1 Surviving Population Count: 99992 Number of New Fatalities: 8
-Step Number: 2 Number of Interactions: 2300 Number of New Infections: 66
-Step Number: 2 Surviving Population Count: 99977 Number of New Fatalities: 15
-Step Number: 3 Number of Interactions: 6600 Number of New Infections: 166
-Step Number: 3 Surviving Population Count: 99928 Number of New Fatalities: 49
-Step Number: 4 Number of Interactions: 16600 Number of New Infections: 389
-Step Number: 4 Surviving Population Count: 99802 Number of New Fatalities: 126
-Step Number: 5 Number of Interactions: 38900 Number of New Infections: 841
-Step Number: 5 Surviving Population Count: 99530 Number of New Fatalities: 272
-Step Number: 6 Number of Interactions: 84100 Number of New Infections: 1619
-Step Number: 6 Surviving Population Count: 98950 Number of New Fatalities: 580
-Step Number: 7 Number of Interactions: 161900 Number of New Infections: 2314
-Step Number: 7 Surviving Population Count: 97845 Number of New Fatalities: 1105
-Step Number: 8 Number of Interactions: 231400 Number of New Infections: 1996
-Step Number: 8 Surviving Population Count: 96227 Number of New Fatalities: 1618
-Step Number: 9 Number of Interactions: 199600 Number of New Infections: 1040
-Step Number: 9 Surviving Population Count: 94836 Number of New Fatalities: 1391
-Step Number: 10 Number of Interactions: 104000 Number of New Infections: 343
-Step Number: 10 Surviving Population Count: 94107 Number of New Fatalities: 729
-Step Number: 11 Number of Interactions: 34300 Number of New Infections: 91
-Step Number: 11 Surviving Population Count: 93866 Number of New Fatalities: 241
-Step Number: 12 Number of Interactions: 9100 Number of New Infections: 21
-Step Number: 12 Surviving Population Count: 93805 Number of New Fatalities: 61
-Step Number: 13 Number of Interactions: 2100 Number of New Infections: 6
-Step Number: 13 Surviving Population Count: 93791 Number of New Fatalities: 14
-Step Number: 14 Number of Interactions: 600 Number of New Infections: 0
-Step Number: 14 Surviving Population Count: 93786 Number of New Fatalities: 5
-The simulation has ended with 93786 survivors and a total of 6214 deaths. Vaccines protected from infection during 813564 interactions, out of a total of 892500 interactions.
-A total of 8915 infections occured.
+METADATA: Population size: 10000	Vaccination Percentage: 0.25	Virus: Tuberculosis	Mortality Rate: 0.68 Reproduction Number: 0.55
+Step Number: 1 Number of Interactions: 1000 Number of New Infections: 403
+Step Number: 1 Surviving Population Count: 9993 Number of New Fatalities: 7
+Step Number: 2 Number of Interactions: 40300 Number of New Infections: 6310
+Step Number: 2 Surviving Population Count: 9727 Number of New Fatalities: 266
+Step Number: 3 Number of Interactions: 631000 Number of New Infections: 777
+Step Number: 3 Surviving Population Count: 5416 Number of New Fatalities: 4311
+Step Number: 4 Number of Interactions: 77700 Number of New Infections: 0
+Step Number: 4 Surviving Population Count: 4894 Number of New Fatalities: 522
+The simulation has ended with 4894 survivors and a total of 5106 deaths. Vaccines protected from infection during 213088 interactions, out of a total of 750000 interactions.
+A total of 7490 infections occured.

@@ -97,7 +97,7 @@ class Simulation(object):
             infection_roll = random.random()
             if infection_roll < self.virus.repro_rate and random_person not in self.newly_infected:
                 self.newly_infected.append(random_person)
-        elif random_person.is_vaccinated and random_person.infection is None:
+        elif random_person.is_vaccinated and random_person.infection is None and random_person.is_alive:
             self.vaccine_saves += 1
 
     def _infect_newly_infected(self):

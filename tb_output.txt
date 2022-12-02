@@ -1,0 +1,11 @@
+METADATA: Population size: 10000	Vaccination Percentage: 0.25	Virus: Tuberculosis	Mortality Rate: 0.68 Reproduction Number: 0.55
+Step Number: 1 Number of Interactions: 1000 Number of New Infections: 411
+Step Number: 1 Surviving Population Count: 9993 Number of New Fatalities: 7
+Step Number: 2 Number of Interactions: 41100 Number of New Infections: 6335
+Step Number: 2 Surviving Population Count: 9715 Number of New Fatalities: 278
+Step Number: 3 Number of Interactions: 633500 Number of New Infections: 744
+Step Number: 3 Surviving Population Count: 5407 Number of New Fatalities: 4308
+Step Number: 4 Number of Interactions: 74400 Number of New Infections: 0
+Step Number: 4 Surviving Population Count: 4907 Number of New Fatalities: 500
+The simulation has ended with 4907 survivors and a total of 5093 deaths. Vaccines protected from infection during 212292 interactions, out of a total of 750000 interactions.
+A total of 7490 infections occured.
