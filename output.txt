@@ -1,5 +1,5 @@
 METADATA: Population size: 1000	Vaccination Percentage: 1	Virus: Ebola	Mortality Rate: 0.7 Reproduction Number: 0.25
 Step Number: 1 Number of Interactions: 10000 Number of New Infections: 0
-Step Number: 1 Surviving Population Count: 931 Number of New Fatalities: 69
-The simulation has ended with 931 survivors and a total of 69 deaths. Vaccines protected from infection during 8971 interactions, out of a total of 10000 interactions.
+Step Number: 1 Surviving Population Count: 930 Number of New Fatalities: 70
+The simulation has ended with 930 survivors and a total of 70 deaths. Vaccines protected from infection during 8991 interactions, out of a total of 10000 interactions.
 A total of 0 infections occured.
