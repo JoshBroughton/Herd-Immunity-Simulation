@@ -1,4 +1,7 @@
 class Logger(object):
+    '''
+    
+    '''
     def __init__(self, file_name):
         self.file_name = file_name
 
@@ -7,7 +10,6 @@ class Logger(object):
         with open(self.file_name, 'w') as out_file:
             metadata = f'METADATA: Population size: {pop_size}\tVaccination Percentage: {vacc_percentage}\tVirus: {virus_name}\tMortality Rate: {mortality_rate} Reproduction Number: {basic_repro_num}\n'
             out_file.write(metadata)
-        
 
     def log_interactions(self, step_number, number_of_interactions, number_of_new_infections):
         out_string = f'Step Number: {step_number} Number of Interactions: {number_of_interactions} Number of New Infections: {number_of_new_infections}\n'
