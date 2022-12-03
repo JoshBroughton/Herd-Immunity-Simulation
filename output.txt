@@ -1,11 +1,5 @@
-METADATA: Population size: 10000	Vaccination Percentage: 0.25	Virus: Tuberculosis	Mortality Rate: 0.68 Reproduction Number: 0.55
-Step Number: 1 Number of Interactions: 1000 Number of New Infections: 403
-Step Number: 1 Surviving Population Count: 9993 Number of New Fatalities: 7
-Step Number: 2 Number of Interactions: 40300 Number of New Infections: 6310
-Step Number: 2 Surviving Population Count: 9727 Number of New Fatalities: 266
-Step Number: 3 Number of Interactions: 631000 Number of New Infections: 777
-Step Number: 3 Surviving Population Count: 5416 Number of New Fatalities: 4311
-Step Number: 4 Number of Interactions: 77700 Number of New Infections: 0
-Step Number: 4 Surviving Population Count: 4894 Number of New Fatalities: 522
-The simulation has ended with 4894 survivors and a total of 5106 deaths. Vaccines protected from infection during 213088 interactions, out of a total of 750000 interactions.
-A total of 7490 infections occured.
+METADATA: Population size: 1000	Vaccination Percentage: 1	Virus: Ebola	Mortality Rate: 0.7 Reproduction Number: 0.25
+Step Number: 1 Number of Interactions: 10000 Number of New Infections: 0
+Step Number: 1 Surviving Population Count: 931 Number of New Fatalities: 69
+The simulation has ended with 931 survivors and a total of 69 deaths. Vaccines protected from infection during 8971 interactions, out of a total of 10000 interactions.
+A total of 0 infections occured.
